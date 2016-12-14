@@ -7,7 +7,7 @@ global env
 set subjectsdir $env(SUBJECTS_DIR)
 set subjectdir "${subjectsdir}/${subject}"
 
-set    imagedir "$subjectdir/screencaps_surfpos"
+set    imagedir $env(screencapdir)
 
 puts "Subject    : $subject"
 puts "Subject Dir: $subjectdir"
